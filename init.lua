@@ -1,0 +1,4 @@
+require("redmaster")
+print("hello")
+
+
