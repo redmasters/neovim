@@ -45,6 +45,25 @@ require("lazy").setup({
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
 	{'L3MON4D3/LuaSnip'},
+	{'williamboman/mason.nvim'},
+	{'williamboman/mason-lspconfig.nvim'},
+	{
+		"NvChad/nvterm",
+		config = function ()
+			require("nvterm").setup({
+				horizontal = {
+					location = "rightbelow",
+					split_ratio = .3,}
+			})
+		end,
+	},
+	{
+		'windwp/nvim-autopairs',
+		event = "InsertEnter",
+		opts = {} -- this is equalent to setup({}) function
+	}
+
+
 
 }
 )
