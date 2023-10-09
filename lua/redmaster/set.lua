@@ -11,7 +11,7 @@ vim.opt.autoindent = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 vim.opt.linebreak = true
 vim.opt.swapfile = false
 vim.opt.backup = false

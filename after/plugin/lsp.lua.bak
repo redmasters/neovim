@@ -31,6 +31,8 @@ require('mason-lspconfig').setup({
 		'gopls',
 		'jdtls',
 		'java_language_server',
+        'sqlls',
+        'sqls',
 
 	},
 	handlers = {
