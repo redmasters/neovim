@@ -1,3 +1,2 @@
-require("redmaster")
-
-
+require("redmaster.core")
+require("redmaster.lazy")
