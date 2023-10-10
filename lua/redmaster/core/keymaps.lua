@@ -21,5 +21,5 @@ keymap.set("n", "<leader>bn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>bp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>bf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 -- keymap to open new terminal in small buffer bellow using :terminal
-keymap.set("n", "<leader>t", "<cmd>belowright split | terminal<CR>", { desc = "Open terminal in new tab" })
+keymap.set("n", "<leader>t", "<cmd>!tmux split-window -v <CR><CR>", { desc = "Open terminal in new tab" })
 
