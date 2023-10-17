@@ -1,9 +1,9 @@
 vim.g.mapleader = " "
+
 local keymap = vim.keymap
-
-
+--
 -- Atalhos Gerais --
-keymap.set("n", "<leader>ee", vim.cmd.Ex)
+keymap.set("n", "<leader>ee", vim.cmd.Lex)
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
@@ -15,6 +15,7 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 
 
 
+
 -- tabs
 keymap.set("n", "<leader>bo", "<cmd>tabnew<CR>", { desc = "Open new tab" }) -- open new tab
 keymap.set("n", "<leader>x", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current t"<cmd>ab
@@ -23,5 +24,3 @@ keymap.set("n", "<S-h>", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  g
 keymap.set("n", "<leader>bf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 -- keymap to open new terminal in small buffer bellow using :terminal
 keymap.set("n", "<leader>t", "<cmd>!tmux split-window -v <CR><CR>", { desc = "Open terminal in new tab" })
-
-
