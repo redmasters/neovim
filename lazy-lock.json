@@ -1,0 +1,9 @@
+{
+  "catppuccin": { "branch": "main", "commit": "dcef0a062de380885193fb0f919217d58b979753" },
+  "lazy.nvim": { "branch": "main", "commit": "84d13c1d7e9a887a89525196dababdaad5021c93" },
+  "nvim-autopairs": { "branch": "master", "commit": "748e72c05495a3d30e88a6ef04b21697019a9aa9" },
+  "nvim-treesitter": { "branch": "master", "commit": "0eb1a0ad1c82e080e77e7b9d7a5e42632cefb543" },
+  "plenary.nvim": { "branch": "master", "commit": "9ce85b0f7dcfe5358c0be937ad23e456907d410b" },
+  "telescope.nvim": { "branch": "master", "commit": "54930e1abfc94409e1bb9266e752ef8379008592" },
+  "vim-github-dark": { "branch": "master", "commit": "25361ac70c66d776bdcf5d749042f07e6e7f50ff" }
+}
