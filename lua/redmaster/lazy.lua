@@ -14,7 +14,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   { import = "redmaster.plugins"},
-  -- {import = "redmaster.plugins.lsp"},
+  {import = "redmaster.plugins.lsp"},
 },
 {
   install = {
